@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+
+body
+{
+ 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.container
+{
+    display: -webkit-inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    display: block;
+}
+
+form
+{
+    display: block;
+    padding: 2.5rem;
+    margin-top: 0em;
+    color: var(--color-white);
+    background-color: var(--color-darkblue-alpha);
+}
+
+.form-group
+{
+    width: 100%;
+    margin: 1.25rem auto 1.25rem auto;
+
+}
+
+label
+{
+    display: flex;
+    font-size: 1.125rem;
+    padding: 0.5rem,0.5rem,0.5rem,0rem;
+    margin: 0.5rem;
+}
+.form-control
+{
+    flex-direction: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#comments
+{
+    min-height: 120px;
+    resize: vertical;
+}
+
+textarea
+{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+}
+
+
+
+#submit
+{
+    background-color: var(--color-green);
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+
+
+
+@media(min-width: 480px){
+    form
+    {
+        padding: 2.5rem;
+    }
+    }
